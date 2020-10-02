@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="VerImagenes.jnlp">
+  <information>
+    <title>VerImagenes</title>
+    <vendor>yimibus</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="VerImagenes.jar" size="13383" download="eager" />
+    <jar href="lib/postgresql-42.1.4.jar" size="713037" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="VerImagenes" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="verimagenes.VerImagenes"  name="VerImagenes" />
+  <update check="always"/>
+</jnlp>
